@@ -1,0 +1,60 @@
+body{
+  background-color: #086788;
+}
+
+h1{
+  font-family: 'Bowlby One SC', cursive;
+  text-align: center;
+  margin: 5% auto;
+  font-size: 4rem;
+  color: #f0c808;
+}
+
+.container{
+  text-align: center;
+  margin: 5% auto;
+}
+
+.btn{
+  width: 250px;
+  height: 250px;
+  margin: 1%;
+  display: inline-block;
+  border: 10px solid #A41613;
+  border-radius: 20%;
+  background-color: #fff1d0;
+}
+
+.car{
+  background-image: url("images/car_m.png");
+  background-size: 99%;
+}
+
+.bike{
+  background-image: url("images/cycle_m.png");
+  background-size: 100%;
+}
+
+.motor{
+  background-image: url("images/motorbike_m.png");
+  background-size: 100%;
+}
+
+.train{
+  background-image: url("images/train_m.png");
+  background-size: 102%;
+}
+
+.btn:focus{
+  outline: 0;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
